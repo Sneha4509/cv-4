@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Project -Instruction 3</title>
+    <style>
+        .descendant li{
+        background-color: lightblue;
+      }
+      .child>li{
+        background-color: antiquewhite;
+      }
+    </style>
+</head>
+<body>
+    <article class="descendant">
+        <ol class="">
+            <li>Example of descendant selector case </li>
+            <li>List  of Companies</li>
+            <li>Amazon</li>
+            <li>Infosys</li>
+            <li>TCS</li>
+            <li>HCL</li>
+            <li>Deloitte</li>
+        </ol>
+    </article>
+     <article class="">
+      <ol class="child">
+        <li> child selector case</li>
+      </ol>
+    </article>
+</body>
+</html>
